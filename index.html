@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b0d4e18a2b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header";>
+        <div class="container">
+            <nav>
+                <img  src="images/logo name.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">My Work</a></li>
+                    <li><a href="#certifications">Certifications</a></li>
+                    <li><a href="#passion">Passions and Pursuits</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Hi! I am <span>Ishani</span> Roy<br>from India.</p>
+                <h1> An Engineer specialised in<br>Computer Science and Business Systems </h1>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/aboutphoto.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>I am a Btech undergraduate specialised in Computer Science and Business Systems,driven by a passion for both technology and business.Being a good communicator ,can thrive in dynamic environments With a penchant for continuous learning and exploration.I am on a journey to unravel the intricacies of life and its opportunities.</p>
+                     <div class="tab-titles">
+                          <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Core JAVA</span><br></li>
+                            <li><span>SQL</span><br></li>
+                            <li><span>DBMS</span><br></li>
+                            <li><span>Salesforce(Beginner)</span><br></li>
+                            <li><span>HTML</span><br></li>
+                            <li><span>CSS</span><br></li>
+                            <li><span>Leadership</span><br></li>
+                            <li><span>Adaptibility</span><br></li>
+                            <li><span>Team Management</span><br></li>
+                            <li><span>Problem Solving</span><br></li>
+                        
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li>Salesforce Developer Virtual Internship Program<br>-By SmartInternz in Partnership with AICTE and Salesforce<br><span>2024</span></li>
+                            <li>Project Intern<br>-"Energy Consumption Forecasting Systems"<br>Infosys SpringBoard<br><span>2024</span><br></li>
+                            <li>Convenor<br>IEI Students' Chapter of CSBS <br>Academy of Technology<br><span>2024-Present</span><br></li>
+                            <li>Participated in Smart India Hackathon<br>Team-'ANONYMOUS FOLKS'<br><span>2023</span><br></li>
+                            <li>Participated in Hack4Bengal 2.0 Hackathon<br><span>2023</span><br></li>
+                            <li>Representative<br>IEI Students' Chapter of CSBS <br>Academy of Technology<br><span>2023-2024</span><br></li>
+                        </ul>
+
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li>Academy of Technology,Hooghly<br>Btech in Computer Science and Business Systems<br><span>2021-2025</span><br>Avg CGPA-8.53<br></li>
+                            <li>Kendriya Vidyalaya No-1,Ishapore<br>AISSCE(10+2)<span><br>2021</span><br>Percentage-83.4%<br></li>
+                            <li>Kendriya Vidyalaya No-1,Ishapore<br>AISSE(10)<br><span>2024-Present</span><br>Percentage-83%<br></li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!--------portfolio------------->
+<div id="portfolio">
+        <div class="container">
+            <h1  class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/Colorful Abstract B Free Logo (1).png">
+                    <div class="layer">
+                        <h3>Memories</h3>
+                        <p>A social media app to store and share your
+                            memories where you can create a user / use
+                            Google auth to signin and basically do CRUD
+                            for posts and like others posts as well .</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+                    </div>
+                </div>
+                 <div class="work">
+                    <img src="images/foodconnect logo.png">
+                    <div class="layer">
+                        <h3>Food Connect</h3>
+                        <p>Food Connect is a Salesforce CRM based initiative to ensure timely delivery 
+                            of leftover and surplus food to underprivileged communities.Food Connect creates a transparent and efficient platform for 
+                            managing food donations, volunteer coordination, and beneficiary tracking.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+
+                </div>
+                
+            </div>
+        
+        </div>
+</div>
+<!-------------certifications----------->
+<div id="certifications">
+    <div class="container">
+        <h1 class="sub-title">Certifications</h1>
+        <div class="certifications-list">
+            <div>
+                <i class="fa-solid fa-square-check"></i>
+                <h2>Salesforce Developer Virtual Internship</h2>
+                <p>By SmartInternz in partnership with AICTE and Salesforce-2024</p>
+                
+            </div>
+            <div>
+                <i class="fa-solid fa-square-check"></i>
+                <h2>Artificial Intelligence Prime Certification</h2>
+                <p>By Infosys SpringBoard-2024</p>
+                
+            </div>
+            <div>
+                <i class="fa-solid fa-square-check"></i>
+                <h2>Software Engineering and Agile software
+                    development</h2>
+                <p>By Infosys SpringBoard-2024</p>
+                
+            </div>
+            <div>
+                <i class="fa-solid fa-square-check"></i>
+                <h2>Introduction to Business Intelligence</h2>
+                <p>By Infosys SpringBoard-2024</p>
+                
+            </div>
+            
+            <div>
+                <i class="fa-solid fa-square-check"></i>
+                <h2>Specialization on Data Engineering, Big data
+                    and Machine learning on GCP</h2>
+                <p> On Coursera by Google Cloud-2024</p>
+                
+            </div>
+            <div>
+                <i class="fa-solid fa-square-check"></i>
+                <h2>TCS iON Career Edge - Young Professional -
+                    TCS iON</h2>
+                <p>2022</p>
+                
+            </div>
+    
+        </div>
+    </div>
+</div>
+<!-------------Passions and Pursuits------------->
+<div id="passion">
+    <div class="container">
+        <h1  class="sub-title">Passion and Pursuits</h1>
+        <div class="passion-list">
+            <div class="passion">
+                <img src="images/cooking.png">
+                <div class="layer">
+                    <h3>Cooking</h3>
+                    <p>Though I have started gaining interest on cooking when I was 10 but Cooking has been my cherished hobby since age 13,inspired by watching my mother. Over the years, I have honed my skills, finding joy in creating delicious and heartfelt meals.Experimenting with flavors and creating delicious dishes brings me immense joy and satisfaction.
+                    </p>
+                </div>
+            </div>
+            <div class="passion">
+                <img src="images/art.png">
+                <div class="layer">
+                    <h3>Arts and Crafts</h3>
+                    <p>I have a deep interest in arts and crafts, despite no formal training. Creating mandala art,Alpanas and transforming waste into beautiful home décor fills me with creativity and joy.</p>
+                </div>
+
+            </div>
+            <div class="passion">
+                <img src="images/dance.png">
+                <div class="layer">
+                    <h3>Classical dancer</h3>
+                    <p>I have been trained in Kathak(Lucknow Gharana) for 6 years and Bharatnatyam for 3 years. These classical dance forms deeply inspire my passion for performing arts.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>    
+    </div>
+</div>
+<!--------------contact details--------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i> ishanirofc01@gmail.com</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100074068755039&mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/miss_luminous_/profilecard/?igsh=MXVmeWRuaTNhNjlzNw=="><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/ishaniroy12"><i class="fa-brands fa-linkedin"></i></a>
+
+                </div>
+                <a href="images/info resume.pdf" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="text" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Ishani. Made by Ishani Roy on 2024. All Rights Reserved. </p>
+    </div>
+</div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right= "0";
+        }
+        function closemenu(){
+            sidemenu.style.right= "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyCIA-Dku6ymvxKTWFxSU5DdKiPtuuh_ZmtiNhW19UdB1pZImOsxbXHjPje7068yV4m/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg= document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response =>{
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML=""},5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
