@@ -238,14 +238,7 @@ nav ul li a:hover::after{
     font-weight: 500;
     margin-bottom: 15px;
 }
-.certifications-list div a{
-    text-decoration: none;
-    color: #fff;
-    font-size: 12px;
-    margin-top: 20px;
-    display: inline-block;
 
-}
 .certifications-list div:hover{
     background: #ff004f;
     transform: translateY(-10px);
